@@ -2,6 +2,10 @@ class PagesController < ApplicationController
   
   
   def index
+    
+    if current_user
+ redirect_to articles_path
+    end
     @article_var= Article.last(4)
   end
 
