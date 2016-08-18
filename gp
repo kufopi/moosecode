@@ -1,4 +1,3 @@
 git add -A
-git commit -m "set up production end for heroku 2"
-git push origin master
-git push heroku master
+git commit -m "added controller for comments and views partials "
+git push origin comments
